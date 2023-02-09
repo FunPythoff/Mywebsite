@@ -1,0 +1,245 @@
+/* CSS by Michal Gaj */
+
+									/* Top Elements */
+
+
+body {
+	background-image:url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+	font: 12px/200%  Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	align-items: center;
+	width: auto;
+	color: rgba(255, 255, 255, 0.712);
+
+}
+
+#header {
+	position: relative;
+	height: 370px;
+	margin-left: 100px;
+	margin-top:50px;
+	letter-spacing: 6px
+}
+
+
+									/*  Navigation Urls Links */
+#nav {
+	position: absolute;
+	height: 30px;
+	left: 35px;	top: 0px;
+	display: inline;
+	
+}
+
+#nav ul li {
+	display: inline-flex;
+	margin: 1; padding: 6;
+}
+
+#nav ul li a {
+	float: left;
+	background-color: rgb(218, 0, 0);
+	border-radius: 20px;
+	margin: 0;	padding: 0 12px;
+	font: bold 15px/50px 'Trebuchet MS', Helvetica, Arial, Geneva, sans-serif;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+#nav ul li a:hover,
+#nav ul li a:active {
+	float: left;
+	background-color: rgb(253, 1, 1);
+	border-radius: 60px;
+	margin: 0;	padding: 0 12px;
+	font: bold 15px/50px 'Trebuchet MS', Helvetica, Arial, Geneva, sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+										/* Written text */
+p {
+	padding: 10px;
+}
+
+
+								/*  h1 - Main topic center
+									h2 - Title of mains topics
+									h3 - Subtitles of main topics
+									h4 - Backgrounds of sub topics*/
+h1 {
+	font: bold 55px   Helvetica, Arial, Sans-serif;
+	font-family: 'America Pro', Tahoma, Arial, Sans-serif;
+	letter-spacing: 2px;
+	position: absolute;
+	margin-left: -25px;
+	margin-top:88px;
+	color: rgba(255, 255, 255, 0.884);
+}
+
+h2 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	padding: 15px 10px 5px 10px;
+	font-family: 'Trebuchet MS', Helvetica, Tahoma, Arial, Sans-serif;
+}
+
+h3 {
+	font-size: 1.8em;
+	font-weight: normal;
+	margin-top: 10px;
+	color: #00ff15;
+	font-family: 'Trebuchet MS', Helvetica, Tahoma, Arial, Sans-serif;
+}
+
+h4 {
+	background-color: #000;
+	border-radius: 30px;
+}
+
+
+											/* Links to url's*/
+a {
+	text-decoration: none;
+	color: #fffb00;
+}
+
+
+											/* Url's to bookmarks */
+ul {
+	margin: 10px 20px;
+	padding: 0 20px;
+	list-style: none;
+}
+
+
+											/* Images-position */
+img.float-right {
+		margin: 5px 0px 10px 10px;  
+}
+
+img.float-left {
+		margin: 5px 15px 10px 0px;
+}
+
+
+											/*  LAYOUT  */ 
+
+#wrap {
+	width: 1240px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#header p#intro {
+	position: absolute;
+	width: 550px;
+	height: 385px;
+	background-color: #000;
+	border-radius: 20px;
+	font-family: 'Trebuchet MS', Tahoma, Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: rgba(255, 255, 255, 0.712);
+	margin-top: 195px;
+	margin-left: -100px;
+	letter-spacing: 2px
+}
+
+.intro2 {
+	position:absolute;
+	background-image:url(VSCfront.png);
+	background-size: 130%;
+	margin-top: 196px;
+	margin-left: 480px;
+	width: 630px;
+	height: 385px;
+	border-radius: 20px;
+	
+}
+
+
+												/* Main Column */
+#main {
+	float: left;
+	width: 880px;
+	margin-top:170px;
+	margin-bottom:150px;
+	display: inline;
+}
+
+#main h2 {
+	padding: 0px 0px;
+	margin-top: 100px;
+	margin-left: 50;
+	font: bold 2.4em 'Trebuchet MS', Helvetica, Arial, sans-serif;
+	color: rgb(255, 255, 255)
+}
+
+
+											/* Right Sidebar About Me*/	
+
+#sidebar {
+	float: right;
+	width: 320px;
+	margin-top: 185px;
+	display: inline;
+	margin-top: 230px;
+	
+
+
+}
+#sidebar h3 {
+	text-align: center;
+	font: bold 'Trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+	border-bottom: 8px solid #000000;
+	color: rgb(255, 255, 255);
+	font-size: 26px;
+	padding: 15px;
+
+}
+
+#sidebar p{
+	background-color: #000;
+	border-radius: 20px;
+}
+
+
+											/* Right Sidebar Useful Links */
+
+#sidebar ul.sidemenu {
+	text-align: center;
+	margin-top:-20px;
+	padding: 0;
+
+}
+
+#sidebar ul.sidemenu li {
+	padding: 8px 10px;
+	margin: 0;
+	border-bottom: 5px solid #111;
+}
+
+#sidebar ul.sidemenu li a {
+	color: #e5ff00;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', Tahoma, Helvetica, Arial, Sans-serif;
+	font-size: 17px;
+}
+
+
+												/* Alignment classes */
+
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
